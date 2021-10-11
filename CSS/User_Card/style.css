@@ -1,0 +1,50 @@
+* {
+	vertical-align: baseline;
+	font-weight: 600;
+	font-family: cursive;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+
+#card {
+    position: fixed;
+    width: 600px;
+    border: 1px solid #eee;
+    background-color: #fff;
+    box-shadow: 4px 4px 4px grey;
+    left: 20px;
+    top: 20px;
+}
+#card .header {
+    height: 70px;
+    margin-bottom: 40px;
+    background-color:teal;
+}
+#portrait {
+    position:absolute;
+    height: 80px;
+    width: 80px;
+    top: 30px;
+    left: 25px; 
+}
+
+#torso {
+    margin: 25px;
+}
+
+.image {
+    height: 25px;
+    float: left;
+    margin-right: 10px;
+}
+h1 {
+    font-size: x-large;
+}
+
+h2 {
+    font-size: large;
+}

@@ -1,0 +1,80 @@
+* {
+	vertical-align: baseline;
+	font-weight: 600;
+	font-family: cursive;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+}
+.container {
+    border: 3px solid black;
+    width: fit-content;
+    height: fit-content;
+    width: 400px;
+    /* padding: 5px 15px; */
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+#personage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 3px solid black;
+    padding: 25px 20px;
+    padding-top: 15px;
+    text-align: center;
+    width: auto;
+    white-space: nowrap;
+}
+body {
+    margin: auto;
+    justify-content: center;
+}
+#net {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin: auto;
+}
+.innercontainer {
+    display: flex;
+    justify-content:space-between;
+    padding: 0px 20px;
+}
+p {
+    padding: 0px 20px;
+}
+.likes {
+    align-self: center;
+}
+.btn {
+    width: 50px;
+    height: 30px;
+    background-color: rgb(245, 222, 17);
+    border: 2px solid black;
+    box-shadow: 4px 4px 3px black;
+    align-self: center;
+}
+h1 {
+    font-size: x-large;
+}
+#nav {
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 560px;
+    height: 50px;
+    padding: 0px 20px;
+    margin: auto;
+    align-items: center;
+}
+#feed {
+    text-align: center;
+}
+#image {
+    height: 60px;
+    margin: 20px;
+    align-self: center;
+}

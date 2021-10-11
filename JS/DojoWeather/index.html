@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Forecast</title>
+</head>
+<body>
+    <div id="nav">
+        <h1 id="nav-title">DojoWeather</h1>
+        <ul id="nav-links">
+            <li><a href="#" class = "navlink" onclick="alert('Loading weather report...')">Burbank</a></li>
+            <li><a href="#" class = "navlink" onclick="alert('Loading weather report...')">Chicago</a></li>
+            <li><a href="#" class = "navlink" onclick="alert('Loading weather report...')">Dallas</a></li>
+        </ul>
+    </div>
+    <div id="citytemp">
+        <h2>San Jose</h2>
+        <div id="CTRight">
+            <p style="align-self: center;">show temperature in</p>
+            <select id="CTTSel" onchange="conver(this)">
+                <option value="C">°C</option>
+                <option value="F">°F</option>
+            </select>
+        </div>
+    </div>
+    <div id="DTMain">
+        <div class="Daycard">
+            <h3 style="align-self: center;">Today</h3>
+            <img class="weatherimgs" src="some_rain.png" alt="some rain">
+            <p style="align-self: center;">some rain</p>
+            <div class="DCTemp">
+                <h5 class="red temps">24</h5>
+                <h5 class="blue temps">18</h5>
+            </div>
+        </div>
+        <div class="Daycard" style="align-self: center;">
+            <h3 style="align-self: center;">Tomorrow</h3>
+            <img class="weatherimgs" src="some_sun.png" alt="some sun">
+            <p style="align-self: center;">some sun</p>
+            <div class="DCTemp">
+                <h5 class="red temps">27</h5>
+                <h5 class="blue temps">19</h5>
+            </div>
+        </div>
+        <div class="Daycard" style="align-self: center;">
+            <h3 style="align-self: center;">Friday</h3>
+            <img class="weatherimgs" src="some_clouds.png" alt="some clouds">
+            <p style="align-self: center;">some clouds</p>
+            <div class="DCTemp">
+                <h5 class="red temps">21</h5>
+                <h5 class="blue temps">16</h5>
+            </div>
+        </div>
+        <div class="Daycard" style="align-self: center;">
+            <h3 style="align-self: center;">Saturday</h3>
+            <img class="weatherimgs" src="some_sun.png" alt="some sun">
+            <p style="align-self: center;">some sun</p>
+            <div class="DCTemp">
+                <h5 class="red temps">26</h5>
+                <h5 class="blue temps">21</h5>
+            </div>
+        </div>
+    </div>
+    <div id="cookies">
+        <img id="cookieimg" src="cookie.png" alt="cookie">
+        <div id="cookietext">
+            <h4>Stop! Cookie time</h4>
+            <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <span id="readmore">Read more...</span></p>
+            
+        </div>
+        <button id="cookiebtn" onclick="this.parentNode.remove()">I Accept</button>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

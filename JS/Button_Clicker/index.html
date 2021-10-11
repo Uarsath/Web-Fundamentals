@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="nav">
+        <h1 id="nav-title">Dojonary</h1>
+        <input type="text" name="searchbar" placeholder="Search" class="sbar">
+        <button id="navbtn" onclick="login(this)">Login</button>
+    </div>
+    <div id="container">
+        <div id="definitions">
+            <div class="def">
+                <div class="leftdef">
+                    <h1>ninja</h1>
+                    <p>noun</p>
+                    <p class="nowrap"> Plural: ninjas</p>
+                    <button class="likebtn" onclick="alert('Ninja was liked')">13 likes</button>
+                </div>
+                <div class="deftext">A practitioner skilled in the <a href="https://www.dictionary.com/browse/japanese">Japanese</a> art of <a href="https://www.dictionary.com/browse/ninjutsu">ninjutsu</a></div>
+            </div>
+            <div class="def">
+                <div class="leftdef">
+                    <h1>ninja</h1>
+                    <p>noun</p>
+                    <p class="nowrap">Plural: ninjas</p>
+                    <button class="likebtn" onclick="alert('Ninja was liked')">37 likes</button>
+                </div>
+                <div class="deftext">A <a href="https://www.dictionary.com/browse/programmer">programmer</a> who breaks down problems with <a href="https://www.dictionary.com/browse/zen">zen</a>-like focus</div>
+            </div>
+        </div>
+        <div id="adddef">
+            <h2>Dojonary is defined by YOU</h2>
+            <button id="defbtn" onclick="remove(this)">Add Definition</button>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

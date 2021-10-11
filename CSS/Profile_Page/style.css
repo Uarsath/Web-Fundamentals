@@ -1,0 +1,223 @@
+* {
+	vertical-align: baseline;
+	font-weight: 600;
+	font-family: cursive;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+ul {
+    list-style:none;
+}
+li {
+    margin: 10px;
+}
+h1 {
+        font-size: x-large;
+}
+h2 {
+        font-size: large;
+}
+
+#circle {
+    height:25px;
+    width:25px;
+    background-color:lightgray;
+    border-radius: 50%;
+    float: left;
+    text-align: center;
+    color: black;
+    margin-right: 10px;
+}
+
+#oval {
+    height:25px;
+    width:50px;
+    background-color:lightgray;
+    border-radius: 50%;
+    float: left;
+    text-align: center;
+    color: black;
+    margin-right: 10px;
+}
+
+.pictures, .symbols{
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.symbols {
+    margin-right:0px;
+}
+
+.nav {
+    display: flex;
+    background-color:black;
+    width: flex;
+    height: 50px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+    .nav-title {
+        color: white;
+        float: left;
+    }
+    .nav-links {
+        display: flex;
+        justify-content: right;
+        list-style:none;
+        float: right;
+    }
+    .navlink {
+        color: white;
+        padding: 15px;
+        text-decoration: none;
+    }
+    #active {
+        font-weight: bold;
+        color: white;
+    }
+    .btn {
+        background-color: turquoise;
+        border-color: black;
+        color: white;
+        box-shadow: 2px 2px black;
+        margin-left: 15px;
+    }
+
+#container {
+    width: max-content;
+    height: auto;
+    margin: auto;
+}
+#subcontainer1 {
+    width: max-content;
+    float: left;
+    margin: 10px;
+    margin-right: -25px;
+}
+#subcontainer2 {
+    width: max-content;
+    float: left;
+    margin: 10px;
+}
+.torso{
+    margin: 25px;
+    margin-top: -40px;
+}
+
+#maincard {
+    width: flex;
+    border: 1px solid #eee;
+    background-color: #fff;
+    box-shadow: 4px 4px 4px grey;
+    margin: 20px;
+    margin-bottom: 30px;
+}
+    #maincard .maintop {
+        height: 70px;
+        margin-bottom: 0px;
+        background-color:teal;
+    }
+    #portrait {
+        position: relative;
+        height: 80px;
+        width: 80px;
+        top: -40px;
+        left: 25px; 
+    }
+    .mainimage {
+        height: 25px;
+        float: left;
+        margin-right: 10px;
+    }
+
+#educationcard {
+    width: 500px;
+    height:fit-content;
+    border: 1px solid #eee;
+    background-color: #fff;
+    box-shadow: 4px 4px 4px grey;
+    margin: 20px;
+}
+    #educationcard .educationtop {
+        height: flex;
+        background-color:black;
+        color: white;
+        padding: 10px;
+        padding-left: 15px;
+        margin-bottom: 50px;
+    }
+    .topp {
+        margin-left: 10px;
+    }
+    
+
+.pos {
+        padding-bottom: 50px;
+}
+
+#requestcard {
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid #eee;
+    background-color: #fff;
+    box-shadow: 4px 4px 4px grey;
+    margin: 20px;
+    margin-bottom: 30px;
+    white-space: nowrap;
+}
+    #requestcard .requesttop {
+        height: flex;
+        padding: 20px;
+        background-color:black;
+        color: white;
+        margin-bottom: 50px;
+    }
+
+    #requesttorso {
+        width: fit-content;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 25px;
+        margin-top: -40px;
+        display: flex;
+        justify-content:space-between;
+    }
+    .requester2{
+        display: block;
+        margin-left: 50px;
+    }
+
+
+#connectioncard {
+    width: flex;
+    height: 300px;
+    border: 1px solid #eee;
+    background-color: #fff;
+    box-shadow: 4px 4px 4px grey;
+    margin: 20px;
+}
+    #connectioncard .connectiontop {
+        height: flex;
+        padding: 20px;
+        background-color:black;
+        color: white;
+        margin-bottom: 50px;
+    }
+    #connecttorso {
+        margin-top: -40px;
+    }
+    #contorsobot {
+        width: 100%;
+        height: 35px;
+        padding-top: 10px;
+        text-indent: 15px;
+        border-top: 4px solid #eee;
+    }

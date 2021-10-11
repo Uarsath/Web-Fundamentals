@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Forecast</title>
+</head>
+<body>
+    <div id="nav">
+        <h1 id="nav-title">Live Scores</h1>
+        <div style="align-content: center;">
+            <ul class="nav-scores">
+                <li>SJC Ninjas - 314</li>
+                <li>CHI Samurai - 0</li>
+                <li>BOS Hackers - 13</li>
+                <li>BOI Knights - 5</li>
+            </ul>
+            <ul class="nav-scores">
+                <li>NS Pirates - 159</li>
+                <li>TUL Wizards - 0</li>
+                <li>TYO Youkai - 37</li>
+                <li>SEA Sea Lions - 11</li>
+            </ul>
+        </div>
+    </div>
+    <div id="secondbanner">
+        <h3 id="DSNN">DSNN</h3>
+        <div id="SBRight">
+            <ul class="bannerlist">
+                <li class="bannerNav">Football</li>
+                <li class="bannerNav">Basketball</li>
+                <li class="bannerNav">Baseball</li>
+                <li class="bannerNav">Soccer</li>
+                <li class="bannerNav">More...</li>
+            </ul>
+        </div>
+        <div id="SBRight2">
+            <ul class="bannerlist">
+                <li class="bannerNav"><img class="bannerimgs" src="search-light.png" alt="mag glass"></li>
+                <li class="bannerNav"><img class="bannerimgs" src="hamburger-light.png" alt="more options"></li>
+                <li class="bannerNav"><img class="bannerimgs" src="user-circle-light.png" alt="user image"></li>
+            </ul>
+        </div>
+    </div>
+    <div id="wrapper">
+        <div id="MainLeft">
+            <div id="Top">
+                <h1 style="border-bottom: 2px solid rgb(0, 0, 0); padding-bottom: 15px;">Top Stories</h1>
+                <p>Ninjas up big in 5th</p>
+                <p>Best sports cities</p>
+                <p>Choi joins Hall of Fame</p>
+                <p>Tournament underway</p>
+                <p>Samurai at Wizards...</p>
+            </div>
+            <div id="Middle">
+                <h2>Customize your DSNN</h2>
+                <div id="buttons">
+                    <button id="SignIn">Sign In</button>
+                    <button id="SignUp">Sign Up</button>
+                </div>
+            </div>
+            <div id="Bottom">
+                <h2>Never miss a play</h2>
+                <button id="Sub" onclick="this.parentNode.remove()">Subscribe</button>
+            </div>
+        </div>
+        <div id="MainRight">
+            <div id="MRTop">
+                <div style="display: flex; margin-right: 50px;">
+                    <p id="circle" style="margin-right: 8px;"></p>
+                    <h3 style="color: red;">Live</h3>
+                </div>
+                <h3>Ninjas Leading Pirates</h3>
+            </div>
+            <div id="MRMiddle">
+                <div id="MRMLeft">
+                    <img class="teamimgs" src="sjc-ninjas.png" alt="ninjas">
+                    <h4 style="font-size: 15px;">San Jose</h4>
+                    <h3 style="margin-top: -8px;">Ninjas</h3>
+                    <p style="font-size: 10px; color: lightgrey; margin-top: -0px;">(10 W - 3 L)</p>
+                    <h5 id="ninjaScore" style="font-size: 35px; margin-top: -8px;" onclick="increment(this)">314</h5>
+                </div>
+                <div id="MRMMiddle">
+                    <h1>vs</h1>
+                    <div>
+                    <p style="font-size: 12px;"><span style="font-size: 12px;" id="timer">0:13</span> <span style="font-size: 12px;"  id="timerstuff"> remaining</span></p>
+                    <p style="font-size: 12px;">5th period</p>
+                    </div>
+                </div>
+                <div id="MRMRight">
+                    <img class="teamimgs" src="ns-pirates.png" alt="pirates">
+                    <h4 style="font-size: 15px;">Nova Scotio</h4>
+                    <h3 style="margin-top: -8px;">Pirates</h3>
+                    <p style="font-size: 10px; color: lightgrey; margin-top: -0px;">(12 W - 2 L)</p>
+                    <h5 id="pirateScore" style="font-size: 35px; margin-top: -8px;" onclick="increment(this)">159</h5>
+                </div>
+            </div>
+            <div id="MRBottom">
+                <p style="font-size: 15px;">A conservative match between the two top-performing sides in the Central League Division with a number 1 seed at stake...<span id="liveupdates">get live updates</span></p>
+                
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

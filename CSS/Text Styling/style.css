@@ -1,0 +1,25 @@
+h1 {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-family: cursive;
+}
+h1 span {
+    background-color: black;
+    color: turquoise;
+    font-weight: bold;
+    !important
+}
+h2 {
+    background-color: rebeccapurple;
+    color: white;
+    text-align: center;
+    font-style: italic;
+
+}
+h3 {
+    background-color: lightskyblue;
+    color: black;
+    text-align: right;
+    text-decoration: underline
+}

@@ -1,0 +1,42 @@
+#container {
+    width: 800px;
+    background-color: lightsteelblue;
+    margin: 0px auto;
+    padding: 10px;
+}
+h1, p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#set1 {
+    background-color: black;
+    margin: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+#set2 {
+    background-color: blue;
+    margin: 15px;
+    display: flex;
+    padding: 20px;
+    justify-content:space-evenly
+
+
+}
+#set3 {
+    background-color:red;
+    margin: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+img.octocat {
+    height: 200px;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Card</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="nav">
+            <h1 class="nav-title">Profile</h1>
+            <ul class="nav-links">
+                <li><a href="#" class = "navlink">Home</a></li>
+                <li><a href="#" class = "navlink" id="active">My Profile</a></li>
+                <li><a href="#" class = "navlink">Find Connections</a></li>
+                <li><button class="btn">Sign Out</button></li>
+            </ul>
+        </div>
+        <div id="container">
+            <div id="subcontainer1">
+                <div id="maincard">
+                    <div class="maintop"></div>
+                    <img id="portrait" src="user-circle.png" alt="userportrait">
+                    <div class="torso">
+                        <h1 id="name">Samuel Scott</h1><br>
+                        <img class="mainimage" src="map-marker.png" alt="mapmarker">
+                        <h2>Denver</h2>
+                        <br><p>Developer|Engineer|Problem Solver<br> Master of nothing and everything!
+                        </p><br>
+                        <img class="mainimage" src="gear.png" alt="gear" onclick="editName()">
+                        <a href="https://google.com/">edit profile</a>
+                    </div>
+                </div>
+                <div id="educationcard">
+                    <div class="educationtop">
+                        <p class="topp">Education</p>
+                    </div>
+                    <div class="torso">
+                        <h1>Coding Dojo - Full Stack Bootcamp</h1><br>
+                        <p>Aug 2021 - Mar 2022</p><br>
+                        <p>Triple no belt in Python</p>
+                    </div>
+                </div>
+            </div>
+            <div id="subcontainer2">
+                <div id="requestcard">
+                    <div class="requesttop">
+                        <span id="circle">2</span>
+                        <p>Connection Requests</p>
+                    </div>
+                    <div id="requesttorso">
+                        <div class="requester">
+                            <div>
+                                <img class="pictures" src="todd-s.jpg" alt="todde">
+                                <span>Todd E</span>
+                            </div>
+                            <div>
+                                <img class="symbols todds" src="accept-circle.png" alt="accept" onclick="this.parentNode.parentNode.remove(), increment()">
+                                <img class="symbols todds" src="close-circle.png" alt="close" onclick="this.parentNode.parentNode.remove(), decrement()">
+                            </div>
+                        </div>
+                        <div class="requester2">
+                            <div>
+                                <img class="pictures" src="phil-s.jpg" alt="philk">
+                                <span>Phil K</span>
+                            </div>
+                            <div>
+                                <img class="symbols phils" src="accept-circle.png" alt="accept" onclick="this.parentNode.parentNode.remove(), increment()">
+                                <img class="symbols phils" src="close-circle.png" alt="close" onclick="this.parentNode.parentNode.remove(), decrement()">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="connectioncard">
+                    <div class="connectiontop">
+                        <span id="oval">400</span>
+                        <p>Your Connections</p>
+                    </div>
+                    <div id="connecttorso">
+                        <ul>
+                            <li><img class="pictures" src="adrien-s.jpg" alt="adriend"><span class="pos">Adrien D</span></li>
+                            <li><img class="pictures" src="anne-s.jpg" alt="annej"><span class="pos"></span>Anne J</span></li>
+                            <li><img class="pictures" src="alayne-s.jpg" alt="alaynet"><span class="pos">Alayne T</span></li>
+                            <li><img class="pictures" src="arry-s.jpg" alt="arryy"><span class="pos"></span>Arry Y</span></li>
+                        </ul>
+                    </div>
+                    <div id="contorsobot">
+                        <a href="https://google.com/">View More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>

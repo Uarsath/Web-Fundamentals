@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+        <form action="/process" method="post">
+            <div>
+                <label>First Name: *</label>
+                <input type="text" name="name" placeholder="First name only please">
+            </div><br>
+            <div>
+                <label>Last Name: *</label>
+                <input type="text" name="name" placeholder="Last name only please">
+            </div><br>
+            <div>
+                <label>Email Address: *</label>
+                <input type="text" name="name" placeholder="Email address please">
+            </div><br>
+            <div>
+                <label>Password: *</label>
+                <input type="password" name="name" placeholder="password is not a password">
+            </div><br>
+            <div>
+                <label>Confirm Password: *</label>
+                <input type="password" name="name" placeholder="enter password again">
+            </div><br>
+            <div>
+                <label>Birthday: </label>
+                <input type="date" name="dob" placeholder="mm/dd/yyyy">
+            </div><br>
+            <div>
+                <label>Gender Identity: </label>
+                <label>Male </label>
+                <input type="radio" name="GI" value="Male" id="Male">
+                <label>Female</label>
+                <input type="radio" name="GI" value="Female" id="Female">
+                <label>Non-binary</label>
+                <input type="radio" name="GI" value="NB" id="NB">
+                <label>I prefer not to answer</label>
+                <input type="radio" name="GI" value="ND" id="ND">
+            </div><br>
+            <div>
+                <label>A short description about myself: </label><br>
+                <textarea name="comment" cols="20" rows="3" placeholder="Ex: I'm a little tea pot."></textarea>>
+            </div><br>
+            <div>
+                <label>Favorite Language: </label>
+                <select name="FLanguage">
+                    <option>Javascript</option>
+                    <option>Python</option>
+                    <option>ID10T Errors</option>
+                    <option>Smack</option>
+                </select>
+            </div><br>
+            <div>
+                <input type="checkbox" name="updates" id="updates" checked>
+                <label for="updates"> Yes, I would like to receive periodic email updates</label>
+            </div><br>
+            <input type="submit" value="Create Account">
+        </form>
+        <p>* Indicates a required field</p>
+    </body>
+</html>
